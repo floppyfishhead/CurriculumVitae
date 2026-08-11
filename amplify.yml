@@ -5,6 +5,8 @@ frontend:
     preBuild:
       commands:
         - npm install --cache .npm --prefer-offline
+        - chmod +x node_modules/.bin/vite
+
     build:
       commands:
         - npm run build
