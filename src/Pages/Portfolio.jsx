@@ -4,19 +4,20 @@ function Portfolio() {
   return (
     <>
       <PageHeader eyebrow="Selected work" title="Portfolio">
-        Career highlights drawn from my updated resume, ready to grow into
-        detailed case studies.
+        Career highlights with more to come with Agential AI.
       </PageHeader>
       <section className="section">
         <div className="container">
           <div className="notice">
             <i className="bi bi-pencil-square" />
             <div>
-              <strong>Next step: add outcomes</strong>
+              <strong>
+                Current step: Working Agential AI with UserInput with
+                React/JavaScript Front-end, Python backend
+              </strong>
               <br />
-              These highlights are resume-based. Add approved metrics, visuals,
-              and customer-safe context when you turn them into full case
-              studies.
+              Highlights from current experience milestones. Additional learned
+              metrics, visuals, and context is to follow.
             </div>
           </div>
           <div className="row g-4 mt-3">
@@ -38,11 +39,17 @@ function Portfolio() {
             ))}
           </div>
           <div className="case-study-prompt mt-5">
-            <p className="eyebrow">A useful formula</p>
-            <h2>Challenge → Your role → Approach → Measurable result</h2>
+            <p className="eyebrow">Frontend, Backend and Core AI</p>
+            <h2>Challenge → How to add Agential AI to Portfolio</h2>
             <p>
-              For each finished case study, add one strong outcome, one visual
-              artifact, and a short reflection on what you learned.
+              As Agential AI a new emerging field, I am exploring how to
+              integrate it into my portfolio. The challenge is to showcase the
+              capabilities of Agential AI while maintaining a user-friendly
+              experience. This involves designing interactive elements that
+              demonstrate the AI's decision-making processes and its ability to
+              adapt to user inputs. The goal is to create a compelling narrative
+              that highlights the potential of Agential AI in real-world
+              applications.
             </p>
           </div>
         </div>
