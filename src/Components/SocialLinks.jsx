@@ -1,8 +1,12 @@
 function SocialLinks() {
   const links = [
-    ["linkedin", "LinkedIn", "https://www.linkedin.com/"],
+    ["linkedin", "LinkedIn", "https://github.com/floppyfishhead/"],
     ["facebook", "Facebook", "https://www.facebook.com/"],
-    ["github", "GitHub", "https://github.com/"],
+    [
+      "github",
+      "GitHub",
+      "https://www.linkedin.com/in/briankeithturnerengineer",
+    ],
   ];
   return (
     <div className="social-links d-flex gap-2">

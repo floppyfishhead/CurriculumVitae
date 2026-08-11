@@ -1,12 +1,14 @@
-import profilePhoto from "./Images/LinkIn.png";
+import image from "../Images/LinkedIn.png";
 
 function Avatar() {
   return (
     <div className="avatar-wrap" aria-label="Professional photo placeholder">
       <div className="avatar-placeholder">
-        <image
+        <img
+          src={image}
+          width={170}
+          height={190}
           className="bi bi-person-fill"
-          src={profilePhoto}
           alt="Professional photo"
         />
       </div>

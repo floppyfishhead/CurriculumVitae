@@ -4,13 +4,13 @@ function Resume() {
   return (
     <>
       <PageHeader eyebrow="Experience & credentials" title="Resume">
-        A complete web version of the information in my current resume.
+        Complete web version of the information in my current resume.
       </PageHeader>
       <section className="section">
         <div className="container resume-grid">
           <aside>
             <h2>Core competencies</h2>
-            <div className="skill-cloud vertical">
+            <div className="skill-cloud horizontal">
               {competencies.map((x) => (
                 <span key={x}>{x}</span>
               ))}
@@ -101,9 +101,9 @@ const competencies = [
 
 const experience = [
   {
-    role: "Convenience Store",
-    company: "Fischer's",
-    location: "",
+    role: "Career Exploration",
+    company: "Self-Reflection",
+    location: "Agential AI, LLMs, and Generative AI",
     dates: "August 2025 – Present",
     detail: "",
   },

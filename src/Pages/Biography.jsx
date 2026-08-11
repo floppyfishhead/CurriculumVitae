@@ -17,7 +17,7 @@ function Biography() {
               <p className="eyebrow dark">Example biography</p>
               <h2>Curious by nature. Practical by training.</h2>
               <p>
-                Brian Turner is an electrical engineer, business leader, and
+                I, Brian Turner am an electrical engineer, business leader, and
                 lifelong learner who enjoys making complex technology useful.
                 His career has moved through automotive systems, manufacturing,
                 renewable energy, product strategy, and artificial
@@ -25,19 +25,18 @@ function Biography() {
                 and execution.
               </p>
               <p>
-                Today, Brian is especially interested in the thoughtful
-                application of AI and intelligent automation to real engineering
-                and business challenges. Away from the whiteboard, add a
-                sentence here about family, hobbies, community, or the
-                unexpected interests that make you, you.
+                Today, I am especially interested in the thoughtful application
+                of AI and intelligent automation to real engineering and
+                business challenges. Away from the whiteboard, I enjoy family,
+                friends, and community involvement. Occasionally, you will see
+                me with a guitar in hand.
               </p>
               <div className="notice mt-4">
                 <i className="bi bi-lightbulb" />
                 <div>
-                  <strong>Make it yours</strong>
-                  <br />A memorable biography usually includes one personal
-                  detail, one guiding belief, and one sentence about what you
-                  hope to build next.
+                  <strong>My Thoughts</strong>
+                  <br />I am a firm believer that Engineering without Artistic
+                  Influence is just formulas without a real cause.
                 </div>
               </div>
             </div>

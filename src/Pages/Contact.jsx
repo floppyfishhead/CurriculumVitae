@@ -37,9 +37,9 @@ function Contact() {
               <div className="contact-address">
                 <i className="bi bi-geo-alt" />
                 <span>
-                  <small>Address</small>102 Elm Way
+                  <small>Address</small>6760 Whartons Dock Rd
                   <br />
-                  Kerrville, TX 78028
+                  Bandera, TX 78003
                 </span>
               </div>
               <div className="contact-social">
