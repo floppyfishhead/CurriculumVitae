@@ -6,7 +6,7 @@ function SocialLinks() {
       "https://www.linkedin.com/in/briankeithturnerengineer",
     ],
     ["facebook", "Facebook", "https://www.facebook.com/"],
-    ["github", "GitHub", "https://www.github.com/briankeithturnerengineer"],
+    ["github", "GitHub", "https://github.com/floppyfishhead"],
   ];
   return (
     <div className="social-links d-flex gap-2">
