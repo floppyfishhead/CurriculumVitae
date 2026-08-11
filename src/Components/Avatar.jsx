@@ -1,4 +1,4 @@
-import image from "../Images/LinkedIn.png";
+import image from "../Images/LinkdinAvatar.png";
 
 function Avatar() {
   return (
@@ -7,12 +7,12 @@ function Avatar() {
         <img
           src={image}
           width={170}
-          height={190}
+          height={210}
           className="bi bi-person-fill"
           alt="Professional photo"
         />
       </div>
-      <span className="photo-note">Engineer Life</span>
+      <span className="photo-note">An Engineering Life</span>
     </div>
   );
 }

@@ -13,7 +13,7 @@ function Layout({ children }) {
       <nav className="navbar navbar-expand-lg navbar-dark sticky-top">
         <div className="container">
           <NavLink className="navbar-brand" to="/">
-            <span className="brand-mark">BT</span> Brian Turner
+            <span className="brand-mark">BKT</span> B Keith Turner
           </NavLink>
           <button
             className="navbar-toggler"

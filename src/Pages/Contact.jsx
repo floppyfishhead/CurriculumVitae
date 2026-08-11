@@ -17,8 +17,7 @@ function Contact() {
               <p>
                 Open to conversations about AI, engineering, technology,
                 intelligent automation, product leadership, and
-                consulting—especially opportunities in the Kerrville area or
-                remote roles.
+                consulting—especially in the Austin, San Antonio or Texas Area.
               </p>
             </div>
             <div className="contact-links">

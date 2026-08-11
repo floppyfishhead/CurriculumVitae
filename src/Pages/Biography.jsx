@@ -5,7 +5,7 @@ function Biography() {
   return (
     <>
       <PageHeader eyebrow="A little more personal" title="Biography">
-        A brief example you can replace with your own story.
+        Stages of Life come and go and the journey is worth adaptability.
       </PageHeader>
       <section className="section">
         <div className="container">
@@ -17,12 +17,11 @@ function Biography() {
               <p className="eyebrow dark">Example biography</p>
               <h2>Curious by nature. Practical by training.</h2>
               <p>
-                I, Brian Turner am an electrical engineer, business leader, and
-                lifelong learner who enjoys making complex technology useful.
-                His career has moved through automotive systems, manufacturing,
-                renewable energy, product strategy, and artificial
-                intelligence—always with a focus on connecting people, ideas,
-                and execution.
+                I am an electrical engineer, business leader, and lifelong
+                learner who enjoys making complex technology useful. His career
+                has moved through automotive systems, manufacturing, renewable
+                energy, product strategy, and artificial intelligence—always
+                with a focus on connecting people, ideas, and execution.
               </p>
               <p>
                 Today, I am especially interested in the thoughtful application
@@ -36,7 +35,8 @@ function Biography() {
                 <div>
                   <strong>My Thoughts</strong>
                   <br />I am a firm believer that Engineering without Artistic
-                  Influence is just formulas without a real cause.
+                  Influence is but many useful formulas without a unique and
+                  real cause for human improvement.
                 </div>
               </div>
             </div>
