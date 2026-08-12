@@ -6,6 +6,7 @@ import Resume from "./Pages/Resume";
 import NotFound from "./Pages/NotFound";
 import SocialLinks from "./Components/SocialLinks";
 import Home from "./Pages/Home";
+import image from "./Images/Favicon.png";
 
 function Layout({ children }) {
   return (
@@ -55,13 +56,23 @@ function Layout({ children }) {
       </nav>
       <main>{children}</main>
       <footer>
-        <div className="container d-flex flex-column flex-sm-row justify-content-between gap-2">
-          <span>© {new Date().getFullYear()} Brian K. Turner</span>
-          <span>
-            Engineering ideas into useful outcomes{" "}
-            <span aria-hidden="true">⚡</span>
-          </span>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">© {new Date().getFullYear()} Brian K. Turner</div>
+            <div class="col"></div>
+            <div class="col">
+              Ideas Into Solutions
+              <img
+                className="footer-logo"
+                src={image}
+                width="50"
+                height="32"
+                alt="photo"
+              ></img>
+            </div>
+          </div>
         </div>
+        <div className="container d-flex flex-col flex-md-row justify-content-between gap-2"></div>
       </footer>
     </div>
   );

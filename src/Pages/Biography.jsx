@@ -5,7 +5,7 @@ function Biography() {
   return (
     <>
       <PageHeader eyebrow="A little more personal" title="Biography">
-        Stages of Life come and go and the journey is worth adaptability.
+        Stages of life come and go with the journey worth adapting.
       </PageHeader>
       <section className="section">
         <div className="container">
