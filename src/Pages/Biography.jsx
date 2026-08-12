@@ -10,7 +10,10 @@ function Biography() {
       <section className="section">
         <div className="container">
           <div className="row g-5 align-items-start">
-            <div className="col-lg-4 d-flex justify-content-center">
+            <div
+              className="col-lg-4 d-flex justify-content-center"
+              backgroundColor="blue"
+            >
               <Avatar />
             </div>
             <div className="col-lg-8 bio-copy">

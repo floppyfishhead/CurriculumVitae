@@ -178,6 +178,7 @@ main {
 }
 .section {
   padding: clamp(4rem, 8vw, 7rem) 0;
+  background-color: cornsilk;
 }
 .section h2 {
   font-size: clamp(1.8rem, 4vw, 3.1rem);
