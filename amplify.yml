@@ -4,8 +4,13 @@ frontend:
   phases:
     preBuild:
       commands:
-        - npm install --include=optional --cache .npm --prefer-offline
+        - rm -rf node_modules
+        - npm install --include=optional
+        - ROLLDOWN_VERSION=$(node -p "require('./node_modules/rolldown/package.json').version")
+        - npm install --no-save @rolldown/binding-linux-x64-gnu@$ROLLDOWN_VERSION
         - chmod +x node_modules/.bin/vite
+        - node -p "require('./node_modules/rolldown/package.json').version"
+        - ls -la node_modules/@rolldown/binding-linux-x64-gnu
 
     build:
       commands:
