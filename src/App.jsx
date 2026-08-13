@@ -6,7 +6,7 @@ import Resume from "./Pages/Resume";
 import NotFound from "./Pages/NotFound";
 import SocialLinks from "./Components/SocialLinks";
 import Home from "./Pages/Home";
-import image from "./Images/Favicon.png";
+import image from "../src/Images/Favicon.png";
 
 function Layout({ children }) {
   return (
