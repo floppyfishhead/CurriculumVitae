@@ -14,7 +14,7 @@ function Layout({ children }) {
       <nav className="navbar navbar-expand-lg navbar-dark sticky-top">
         <div className="container">
           <NavLink className="navbar-brand" to="/">
-            <span className="brand-mark">BKT</span> B Keith Turner
+            <span className="brand-mark">BKT</span> B. Keith Turner
           </NavLink>
           <button
             className="navbar-toggler"
@@ -60,13 +60,13 @@ function Layout({ children }) {
           <div class="row">
             <div class="col">© {new Date().getFullYear()} Brian K. Turner</div>
             <div class="col"></div>
+            <div class="col">Ideas Into Solutions</div>
             <div class="col">
-              Ideas Into Solutions
               <img
                 className="footer-logo"
                 src={image}
-                width="50"
-                height="32"
+                width="40"
+                height="28"
                 alt="photo"
               ></img>
             </div>
