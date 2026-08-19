@@ -7,6 +7,7 @@ import NotFound from "./Pages/NotFound";
 import SocialLinks from "./Components/SocialLinks";
 import Home from "./Pages/Home";
 import image from "../src/Images/favicon.png";
+import AiChatPage from "./Pages/AiChatPage";
 
 function Layout({ children }) {
   return (
@@ -35,6 +36,7 @@ function Layout({ children }) {
                 ["/portfolio", "Portfolio"],
                 ["/biography", "Biography"],
                 ["/contact", "Contact"],
+                ["/aichatpage", "AiChatPage"],
               ].map(([to, label]) => (
                 <NavLink
                   key={to}
@@ -87,6 +89,7 @@ export default function App() {
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/biography" element={<Biography />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/aichatpage" element={<AiChatPage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Layout>
