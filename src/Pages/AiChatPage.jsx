@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import "../AiChatPage.css";
+import PageHeader from "../Components/PageHeader";
 
 /**
  * Expected API contract:

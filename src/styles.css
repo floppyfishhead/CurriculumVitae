@@ -3,8 +3,8 @@
 :root {
   --ink: #152329;
   --navy: #0c2933;
-  --teal: #18a999;
-  --lime: #d8f36a;
+  --teal: #29b3a2;
+  --lime: #f13c1c;
   --paper: #f5f3ed;
   --muted: #617078;
 }
@@ -52,10 +52,13 @@ main {
   width: 2.2rem;
   height: 2.2rem;
   border-radius: 50% 50% 50% 50%;
-  background: var(--lime);
-  color: var(--navy);
+  background: #29b3a2;
+  /* background: var(--lime); */
+  /* color: var(--navy); */
+  /* color: whitesmoke; */
+  color: rgba(255, 255, 255, 0.72);
   font-size: 0.9rem;
-  transform: rotate(-2deg);
+  /* transform: rotate(-45deg); */
 }
 .nav-link {
   color: rgba(255, 255, 255, 0.72) !important;
@@ -120,7 +123,7 @@ main {
   margin-bottom: 2rem;
 }
 .hero h1 span {
-  color: var(--lime);
+  color: var(--muted);
 }
 .hero-copy {
   font-size: clamp(1.05rem, 2vw, 1.3rem);
